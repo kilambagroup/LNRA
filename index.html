@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>LNRA — The network behind iGaming brands</title>
 <meta name="description" content="A network of operational, people, commercial, finance, strategy and creative expertise behind international iGaming brands. Sliema, Malta." />
-<link rel="canonical" href="https://kilambagroup.github.io/LNRA/" />
+<link rel="canonical" href="https://www.lnra-trading.mt/" />
 
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -17,10 +17,10 @@
 <!-- Open Graph (LinkedIn, WhatsApp, Slack, Facebook) -->
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="LNRA" />
-<meta property="og:url" content="https://kilambagroup.github.io/LNRA/" />
+<meta property="og:url" content="https://www.lnra-trading.mt/" />
 <meta property="og:title" content="LNRA — The network behind iGaming brands" />
 <meta property="og:description" content="A network of operational, people, commercial, finance, strategy and creative expertise behind international iGaming brands. Sliema, Malta." />
-<meta property="og:image" content="https://kilambagroup.github.io/LNRA/og-image.png" />
+<meta property="og:image" content="https://www.lnra-trading.mt/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="LNRA — Part of Kilamba Group" />
@@ -30,7 +30,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="LNRA — The network behind iGaming brands" />
 <meta name="twitter:description" content="A network of operational, people, commercial, finance, strategy and creative expertise behind international iGaming brands. Sliema, Malta." />
-<meta name="twitter:image" content="https://kilambagroup.github.io/LNRA/og-image.png" />
+<meta name="twitter:image" content="https://www.lnra-trading.mt/og-image.png" />
 
 <script type="application/ld+json">
 {
@@ -38,12 +38,12 @@
   "@type": "Organization",
   "name": "LNRA",
   "alternateName": "LNRA Trading",
-  "url": "https://kilambagroup.github.io/LNRA",
-  "logo": "https://kilambagroup.github.io/LNRA/logo-white.png",
-  "image": "https://kilambagroup.github.io/LNRA/og-image.png",
+  "url": "https://www.lnra-trading.mt",
+  "logo": "https://www.lnra-trading.mt/logo-white.png",
+  "image": "https://www.lnra-trading.mt/og-image.png",
   "description": "LNRA is part of the operational network behind Kilamba Group — an international gaming group operating across Africa and Latin America.",
   "foundingDate": "2024",
-  "email": "hello@lnra.mt",
+  "email": "info@lnra-trading.mt",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Sliema",
@@ -161,11 +161,13 @@
   #functions { padding-top: 56px; }
   #functions .sec-h { margin-bottom: 24px; }
   #functions .modules { margin-top: 32px; }
-  .who-grid { display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,0.9fr); gap: 44px; align-items: start; }
+  .who-grid { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,0.85fr); gap: 44px; align-items: stretch; }
   .who-text .sec-lead { max-width: 58ch; }
-  .who-photo { position: relative; min-height: 340px; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); background: var(--bg2); background-image: radial-gradient(circle at 28% 18%, rgba(122,60,255,0.18), transparent 60%), radial-gradient(circle at 82% 88%, rgba(0,224,255,0.12), transparent 55%); display: flex; align-items: center; justify-content: center; }
-  .who-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 42%; display: block; }
-  .who-photo-hint { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-dim); border: 1px dashed rgba(242,240,234,0.25); padding: 12px 18px; border-radius: 8px; }
+  .who-cta { min-height: 300px; border-radius: 18px; border: 1px solid var(--line); background: var(--bg2); background-image: radial-gradient(circle at 28% 18%, rgba(122,60,255,0.18), transparent 60%), radial-gradient(circle at 82% 88%, rgba(0,224,255,0.14), transparent 55%); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 24px; padding: 40px 32px; }
+  .who-cta h3 { font-family: var(--font-display); font-weight: 600; font-size: clamp(24px, 2.4vw, 34px); letter-spacing: -0.02em; line-height: 1.15; color: var(--ink); }
+  .who-cta .btn { display: inline-flex; align-items: center; gap: 10px; padding: 15px 28px; background: linear-gradient(135deg, #E4C24E 0%, #C9981F 100%); color: #0a0a12; font-family: var(--font-display); font-weight: 600; font-size: 15px; border-radius: 10px; box-shadow: 0 8px 32px rgba(212,175,55,0.35); transition: transform 0.2s; }
+  .who-cta .btn::after { content: '→'; }
+  .who-cta .btn:hover { transform: translateY(-2px); }
   .sec-lead b { color: var(--ink); font-weight: 500; }
 
   /* Modules grid */
@@ -266,9 +268,9 @@
     .nav-links a { padding: 15px 4px; font-size: 16px; border-bottom: 1px solid var(--line-soft); }
     .hero h1 { font-size: 52px; }
     .hero .sub { flex-direction: column; align-items: start; }
-    .modules { grid-template-columns: 1fr; }
     .who-grid { grid-template-columns: 1fr; gap: 28px; }
-    .who-photo { min-height: 240px; }
+    .who-cta { min-height: 220px; }
+    .modules { grid-template-columns: 1fr; }
     .live { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .operators { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .arch-layer { flex-direction: column; align-items: start; gap: 16px; }
@@ -311,7 +313,7 @@
       <div class="card c1">
         <span class="lbl">International markets</span>
         <span class="val">10+</span>
-        <span class="delta">Africa · LATAM</span>
+        <span class="delta">AFRICA · LATAM</span>
       </div>
       <div class="card c2">
         <span class="lbl">LNRA team</span>
@@ -319,9 +321,9 @@
         <span class="delta">Business experts</span>
       </div>
       <div class="card c3">
-        <span class="lbl">Clients</span>
-        <span class="val">5</span>
-        <span class="delta">International brands</span>
+        <span class="lbl">Kilamba Group</span>
+        <span class="val">1000</span>
+        <span class="delta">group employees</span>
       </div>
     </div>
   </div>
@@ -337,8 +339,9 @@
         <p class="sec-lead" style="margin-top:20px;">Working closely with teams and partners across different regions, LNRA supports the day-to-day running and ongoing development of the group's brands through a range of operational and business functions.</p>
         <p class="sec-lead" style="margin-top:20px;">Operating in diverse regions requires <b>strong coordination, adaptability and collaboration</b> across teams, ensuring the group can continue to scale and respond effectively to different market needs and regulatory environments.</p>
       </div>
-      <div class="who-photo">
-        <img src="team.jpg" alt="L'équipe LNRA — Journée internationale des droits des femmes">
+      <div class="who-cta">
+        <h3>Discover our group</h3>
+        <a class="btn" href="https://kilambagroup.com" target="_blank" rel="noopener">Visit Kilamba Group</a>
       </div>
     </div>
 
@@ -431,8 +434,8 @@
       ".nav-links a": ["Qui nous sommes","Ce que nous faisons","Rejoignez-nous"],
       ".hero h1": `Le réseau<br><span class="grad">derrière</span> les marques<br><span class="pink">iGaming</span>.`,
       ".hero .sub p": `<b>LNRA accompagne les marques</b> dans la gestion quotidienne de leurs opérations, ressources humaines, développement commercial, finance, stratégie et marketing.`,
-      ".stack .card .lbl": ["Marchés internationaux","Effectif LNRA","Clients"],
-      ".stack .card .delta": ["Afrique · LATAM","experts métier","marques internationales"],
+      ".stack .card .lbl": ["Marchés internationaux","Effectif LNRA","Kilamba Group"],
+      ".stack .card .delta": ["AFRIQUE · LATAM","experts métier","employés du groupe"],
       "#who .sec-meta": ["/ qui nous sommes","/ notre mission"],
       "#who .sec-h": `Un réseau <span class="grad">opérationnel</span><br>au service de tous les marchés.`,
       "#who .sec-lead": [
@@ -441,6 +444,8 @@
         `Opérer dans des régions variées exige <b>une coordination solide, de l'adaptabilité et de la collaboration</b> entre les équipes, afin que le groupe puisse continuer à se développer et à répondre efficacement aux besoins des différents marchés et à leurs environnements réglementaires.`
       ],
       "#who .mission-card p": `Apporter toutes les solutions <span class="grad">techniques, opérationnelles et marketing</span> aux acteurs principaux de l'industrie de l'iGaming à travers le monde.`,
+      "#who .who-cta h3": `Découvrez notre groupe`,
+      "#who .who-cta .btn": `Visiter Kilamba Group`,
       "#functions .sec-meta": "/ ce que nous faisons",
       "#functions .sec-h": `Six fonctions.<br>Un seul <span class="grad">réseau intégré</span>.`,
       "#functions .sec-lead": `Des opérations quotidiennes à la direction créative, LNRA couvre tous les métiers nécessaires au bon fonctionnement de multiples marchés internationaux. <b>Chaque fonction agit à travers différentes régions, équipes et marques.</b>`,
@@ -463,8 +468,8 @@
       ".nav-links a": ["Quem somos","O que fazemos","Junte-se a nós"],
       ".hero h1": `A rede<br><span class="grad">por trás</span> das marcas<br><span class="pink">iGaming</span>.`,
       ".hero .sub p": `<b>A LNRA acompanha as marcas</b> na gestão diária das suas operações, recursos humanos, desenvolvimento comercial, finanças, estratégia e marketing.`,
-      ".stack .card .lbl": ["Mercados internacionais","Equipa LNRA","Clientes"],
-      ".stack .card .delta": ["África · LATAM","especialistas de negócio","marcas internacionais"],
+      ".stack .card .lbl": ["Mercados internacionais","Equipa LNRA","Kilamba Group"],
+      ".stack .card .delta": ["ÁFRICA · LATAM","especialistas de negócio","funcionários do grupo"],
       "#who .sec-meta": ["/ quem somos","/ a nossa missão"],
       "#who .sec-h": `Uma rede <span class="grad">operacional</span><br>ao serviço de todos os mercados.`,
       "#who .sec-lead": [
@@ -473,6 +478,8 @@
         `Operar em regiões diversas exige <b>uma coordenação sólida, adaptabilidade e colaboração</b> entre equipas, garantindo que o grupo possa continuar a crescer e a responder de forma eficaz às necessidades dos diferentes mercados e aos seus enquadramentos regulatórios.`
       ],
       "#who .mission-card p": `Levar todas as soluções <span class="grad">técnicas, operacionais e de marketing</span> aos principais players da indústria de iGaming em todo o mundo.`,
+      "#who .who-cta h3": `Conheça o nosso grupo`,
+      "#who .who-cta .btn": `Visitar a Kilamba Group`,
       "#functions .sec-meta": "/ o que fazemos",
       "#functions .sec-h": `Seis funções.<br>Uma <span class="grad">rede integrada</span>.`,
       "#functions .sec-lead": `Das operações diárias à direção criativa, a LNRA cobre todas as áreas de negócio necessárias para manter vários mercados internacionais a funcionar sem falhas. <b>Cada função atua em diferentes regiões, equipas e marcas.</b>`,
