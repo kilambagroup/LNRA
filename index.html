@@ -191,6 +191,14 @@
   .mod:nth-child(4) .idx { color: var(--blue); }
   .mod:nth-child(5) .idx { color: var(--violet); }
   .mod:nth-child(6) .idx { color: var(--cyan); }
+  .mod .mod-ic { width: 50px; height: 50px; display: block; background-color: var(--violet); filter: drop-shadow(0 0 7px rgba(122,60,255,0.45)); transition: transform 0.2s; -webkit-mask-position: center; mask-position: center; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-size: contain; mask-size: contain; }
+  .mod:nth-child(1) .mod-ic { -webkit-mask-image: url(ic-support.png); mask-image: url(ic-support.png); }
+  .mod:nth-child(2) .mod-ic { background-color: var(--cyan); filter: drop-shadow(0 0 7px rgba(0,224,255,0.45)); -webkit-mask-image: url(ic-people.png); mask-image: url(ic-people.png); }
+  .mod:nth-child(3) .mod-ic { background-color: var(--pink); filter: drop-shadow(0 0 7px rgba(244,114,182,0.45)); -webkit-mask-image: url(ic-commercial.png); mask-image: url(ic-commercial.png); }
+  .mod:nth-child(4) .mod-ic { background-color: var(--blue); filter: drop-shadow(0 0 7px rgba(59,143,210,0.45)); -webkit-mask-image: url(ic-finance.png); mask-image: url(ic-finance.png); }
+  .mod:nth-child(5) .mod-ic { background-color: var(--violet); filter: drop-shadow(0 0 7px rgba(122,60,255,0.45)); -webkit-mask-image: url(ic-strategy.png); mask-image: url(ic-strategy.png); }
+  .mod:nth-child(6) .mod-ic { background-color: var(--cyan); filter: drop-shadow(0 0 7px rgba(0,224,255,0.45)); -webkit-mask-image: url(ic-creative.png); mask-image: url(ic-creative.png); }
+  .mod:hover .mod-ic { transform: translateY(-2px) scale(1.04); }
   .mod h3 { font-family: var(--font-display); font-weight: 600; font-size: 32px; letter-spacing: -0.025em; margin-top: 14px; }
   .mod p { color: var(--ink-dim); margin-top: 16px; max-width: 44ch; line-height: 1.6; }
   .mod .tags { display: none; flex-wrap: wrap; gap: 6px; margin-top: 24px; }
@@ -361,36 +369,42 @@
 
     <div class="modules">
       <div class="mod">
+        <span class="mod-ic" aria-hidden="true"></span>
         <span class="idx">function_01 · operations</span>
         <h3>Operational Support.</h3>
         <p>Day-to-day operations, process orchestration and cross-market coordination — the engine room of the group.</p>
         <div class="tags"><span>Operations</span><span>Process</span><span>Coordination</span></div>
       </div>
       <div class="mod">
+        <span class="mod-ic" aria-hidden="true"></span>
         <span class="idx">function_02 · people</span>
         <h3>People Operations.</h3>
         <p>HR, talent acquisition, employee experience and culture — across multiple countries and time zones.</p>
         <div class="tags"><span>HR</span><span>Talent</span><span>Culture</span></div>
       </div>
       <div class="mod">
+        <span class="mod-ic" aria-hidden="true"></span>
         <span class="idx">function_03 · commercial</span>
         <h3>Commercial Coordination.</h3>
         <p>Partnerships, sales support, and market alignment across the group's brands and regions.</p>
         <div class="tags"><span>Partnerships</span><span>Sales</span><span>Markets</span></div>
       </div>
       <div class="mod">
+        <span class="mod-ic" aria-hidden="true"></span>
         <span class="idx">function_04 · finance</span>
         <h3>Finance.</h3>
         <p>Group finance, controlling, reporting and treasury support — keeping numbers aligned across territories.</p>
         <div class="tags"><span>Controlling</span><span>Reporting</span><span>Treasury</span></div>
       </div>
       <div class="mod">
+        <span class="mod-ic" aria-hidden="true"></span>
         <span class="idx">function_05 · strategy</span>
         <h3>Strategic Projects.</h3>
         <p>Cross-cutting initiatives, market entry, and special projects supporting the group's continued expansion.</p>
         <div class="tags"><span>Market entry</span><span>Initiatives</span><span>Special ops</span></div>
       </div>
       <div class="mod">
+        <span class="mod-ic" aria-hidden="true"></span>
         <span class="idx">function_06 · creative</span>
         <h3>Creative Functions.</h3>
         <p>Design, content, and brand support for the group's portfolio across multiple markets and audiences.</p>
